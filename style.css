@@ -1,0 +1,445 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: black;
+}
+.navbar{
+    width: 100%;
+    height: 99px;
+    background-color: white;
+    padding: 0,20px;
+    margin-bottom: 20px;
+    border-bottom:dotted grey;
+  
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar li{
+    margin:0 15px;
+    align-items: center;
+    font-weight: bold;
+}
+.navbar_left{
+    text-transform: uppercase;
+    flex:1;
+    margin-left:20px;
+}
+ul{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+
+    
+
+}
+ul li a:hover{
+    color: green;
+}
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.map_logo{
+    background-image: url(../images/images.png);
+    background-size: cover;
+    width:15px;
+    height:15px;
+}
+
+
+.starbucks_logo{
+    background-image:url(../images/Starbucks-Logo.png);
+    background-size: cover;
+    width:100px;
+    height: 100px;
+}
+
+input{
+    border-radius: 15px;
+    width:78px;
+    height:32px;
+}
+.join_now input{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.sign_in input{
+     background-color:white;
+    color: black;
+    font-weight: bold;
+}
+
+.sign_in input:hover{
+    color: gray;
+}
+
+.join_now input:hover{
+    color: wheat;
+}
+
+   
+.summer_pic{
+    float: left;
+    background-image: url(..//images/summer.webp);
+    background-size:cover;
+    height: 661px;
+    width:50%;
+    margin-bottom: 30px;
+
+    
+}
+.summer{
+    float: right;
+    background-color:#32462F;
+    height: 661px;
+    width:50%;
+    color: white;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.summer h1{
+    font-size:72px;
+    margin-bottom: 24px;
+    margin-top: 90px;
+    text-align: center;
+    
+}
+.summer p{
+
+    font-size: 24px;
+    width: 450px;
+    height:180px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box_container .view_bottom input {
+    color: white;
+    height: 35px;
+    width: 147px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: #32462F;
+    border: 2px solid white;
+
+
+    
+}
+.box_container .view_bottom input:hover{
+     background-color:darkgreen ;
+}
+
+.box_container2 .view_bottom input:hover{
+     background-color:brown ;
+}
+
+.box_container3 .view_bottom input:hover{
+     background-color:darkgreen ;
+}
+
+.box_container4 .view_bottom input:hover{
+     background-color:darkgreen ;
+}
+.box_container5 .view_bottom input:hover{
+     background-color:darkgreen ;
+}
+.coffic_pic{
+    background-image: url(../images/secound_pic.jpg);
+    float: right;
+    background-size: cover;
+    height: 466px;
+    width:50%;
+    margin-bottom: 30px;
+
+}
+.coffe{
+    float: left;
+    background-color:#5F4633;
+    height:466px;
+    width:50%;
+    color: white;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.coffe h1{
+    font-size:42px;
+    margin-bottom: 24px;
+    margin-top: 90px;
+    text-align: center;
+    
+}
+.coffe p{
+
+    font-size: 24px;
+    width: 450px;
+    height:180px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box_container2 .view_bottom input {
+    color: white;
+    height: 35px;
+    width: 147px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: #5F4633;
+    border: 2px solid white;
+}
+.box_container{
+    padding: 30px;
+
+}
+
+.box_container2{
+     padding: 30px;
+}
+
+.box_container3{
+     padding: 30px;
+}
+
+.box_container4{
+     padding: 30px;
+}
+
+.box_container5{
+     padding: 30px;
+}
+.image_pic{
+    background-image: url(../images/coffee_pic.webp);
+    float: left;
+    background-size: cover;
+    height: 661px;
+    width:50%;
+    margin-bottom: 30px;
+}
+
+.image_text{
+    float: right;
+    background-color:#32462F;
+    height:661px;
+    width:50%;
+    color: white;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.image_text h1{
+    font-size:72px;
+    margin-bottom: 24px;
+    margin-top: 90px;
+    text-align:center;
+    
+}
+
+.image_text p{
+
+    font-size: 24px;
+    width: 450px;
+    height:180px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box_container3 .view_bottom input {
+    color: white;
+    height: 35px;
+    width: 147px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color:#32462F;
+    border: 2px solid white;
+}
+
+.milk_pic{
+    background-image: url(../images/milk.webp);
+    float: right;
+    background-size: cover;
+    height: 661px;
+    width:50%;
+    margin-bottom: 30px;
+}
+
+.milk_text{
+    float: left;
+    background-color:#32462F;
+    height:661px;
+    width:50%;
+    color: white;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.milk_text h1{
+    font-size:72px;
+    margin-bottom: 24px;
+    margin-top: 90px;
+    text-align:center;
+    
+}
+
+.milk_text p{
+
+    font-size: 24px;
+    width: 450px;
+    height:180px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box_container4 .view_bottom input {
+    color: white;
+    height: 35px;
+    width: 147px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color:#32462F;
+    border: 2px solid white;
+}
+
+.farm_pic{
+    background-image: url(../images/farm.jpg);
+    float:left;
+    background-size: cover;
+    height: 661px;
+    width:50%;
+    margin-bottom: 40px;
+}
+
+.farm_text{
+    float: right;
+    background-color:#32462F;
+    height:661px;
+    width:50%;
+    color: white;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.farm_text h1{
+    font-size:72px;
+    margin-bottom: 24px;
+    margin-top: 90px;
+    text-align:center;
+    
+}
+
+.farm_text p{
+
+    font-size: 24px;
+    width: 450px;
+    height:180px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box_container5 .view_bottom input {
+    color: white;
+    height: 35px;
+    width: 147px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color:#32462F;
+    border: 2px solid white;
+}
+
+.end{
+    width: 700px;
+    height:auto;
+    margin: auto;
+}
+.info p {
+    font-size: medium;
+    text-align: center;;
+    border-bottom:dotted grey;
+    
+}
+
+.main{
+    font-size: 20px;
+    font-weight: 500;;
+}
+.last_text ul li a {
+    color: grey;
+    text-decoration: none;
+
+}
+
+.last_text ul li a:hover{
+    color: black;
+}
+
+.last_text ul li{
+    padding: 10px;
+}
+
+.last_text {
+    display: flex;
+    gap: 40px;
+    margin: 20px;
+}
+.last{
+    padding: 20px;
+    border-bottom: 1px dotted gray;
+}
+
+.notice_text ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+.notice_text ul li a:hover{
+    color:black;
+    text-decoration: underline;
+    
+}
+
+.notice{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.notice_text ul li{
+    padding-bottom: 10px;
+}
