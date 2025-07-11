@@ -53,7 +53,7 @@ ul li a:hover{
 
 }
 .map_logo{
-    background-image: url(../images/images.png);
+    background-image: url(images.png);
     background-size: cover;
     width:15px;
     height:15px;
@@ -61,7 +61,7 @@ ul li a:hover{
 
 
 .starbucks_logo{
-    background-image:url(../images/Starbucks-Logo.png);
+    background-image:url(Starbucks-Logo.png);
     background-size: cover;
     width:100px;
     height: 100px;
@@ -94,7 +94,7 @@ input{
    
 .summer_pic{
     float: left;
-    background-image: url(..//images/summer.webp);
+    background-image: url(summer.webp);
     background-size:cover;
     height: 661px;
     width:50%;
@@ -163,7 +163,7 @@ input{
      background-color:darkgreen ;
 }
 .coffic_pic{
-    background-image: url(../images/secound_pic.jpg);
+    background-image: url(secound_pic.jpg);
     float: right;
     background-size: cover;
     height: 466px;
@@ -232,7 +232,7 @@ input{
      padding: 30px;
 }
 .image_pic{
-    background-image: url(../images/coffee_pic.webp);
+    background-image: url(coffee_pic.webp);
     float: left;
     background-size: cover;
     height: 661px;
@@ -283,7 +283,7 @@ input{
 }
 
 .milk_pic{
-    background-image: url(../images/milk.webp);
+    background-image: url(milk.webp);
     float: right;
     background-size: cover;
     height: 661px;
@@ -334,7 +334,7 @@ input{
 }
 
 .farm_pic{
-    background-image: url(../images/farm.jpg);
+    background-image: url(farm.jpg);
     float:left;
     background-size: cover;
     height: 661px;
